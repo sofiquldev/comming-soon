@@ -4,12 +4,12 @@
 	var $window = $(window); 
 	
 	/* Typed subtitle */
-	$('.typed-title').typed({
+	/* $('.typed-title').typed({
 		stringsElement: $('.typing-title'),
 		backDelay: 2000,
 		typeSpeed: 60,
 		loop: true
-	});
+	}); */
 
     if($('#comming-soon-subscriber').length) {
         $('#comming-soon-subscriber').on('submit', function() {
